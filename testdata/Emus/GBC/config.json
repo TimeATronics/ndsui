@@ -1,0 +1,2 @@
+{ "label":"GBC", "themecolor":"F0C040", "icontop":"ic-gbc.png",
+  "launch":"launch.sh", "rompath":"../../Roms/GBC", "extlist":"gbc|gb" }

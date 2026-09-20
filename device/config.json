@@ -1,0 +1,9 @@
+{
+"package":"com.ndsui.launcher",
+"label":"NDSUI",
+"label.ch.lang":"NDSUI",
+"icontop":"ic-ndsui.png",
+"icon":"",
+"launch":"launch.sh",
+"description":"Nintendo DS style launcher"
+}

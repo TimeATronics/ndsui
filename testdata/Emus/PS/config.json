@@ -1,0 +1,2 @@
+{ "label":"PS", "themecolor":"30303A", "icontop":"ic-ps.png",
+  "launch":"launch.sh", "rompath":"../../Roms/PS", "extlist":"chd|m3u" }

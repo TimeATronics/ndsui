@@ -1,0 +1,11 @@
+{
+  "label": "DC",
+  "themecolor": "E07A2A",
+  "launch": "flycast_standalone.sh",
+  "rompath": "../../Roms/DC",
+  "extlist": "chd",
+  "launchlist": [
+    {"name": "Flycast (Libretro)", "launch": "flycast.sh"},
+    {"name": "Flycast (Standalone)", "launch": "flycast_standalone.sh"}
+  ]
+}

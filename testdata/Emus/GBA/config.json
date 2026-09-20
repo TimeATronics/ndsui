@@ -1,0 +1,7 @@
+{
+    "label":"GBA",
+    "themecolor":"7B68EE",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/GBA",
+    "extlist":"gba|zip"
+}

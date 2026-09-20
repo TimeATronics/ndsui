@@ -1,0 +1,2 @@
+# the shell scripts run on the device: they must keep LF endings
+*.sh text eol=lf

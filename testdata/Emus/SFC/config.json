@@ -1,0 +1,11 @@
+{
+    "label":"SFC",
+    "themecolor":"FF0000",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/SFC",
+    "extlist":"smc|sfc|zip",
+    "launchlist": [
+        {"name":"Snes9x2010","launch":"launch.sh"},
+        {"name":"Snes9x Latest","launch":"launch_snes9x.sh"}
+    ]
+}

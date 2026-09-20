@@ -1,0 +1,11 @@
+{
+    "label":"N64",
+    "themecolor":"FFFF88",
+    "launch":"launch.sh",
+    "rompath":"../../Roms/N64",
+    "extlist":"z64|v64|n64|zip",
+    "launchlist": [
+        {"name":"glide64mk2","launch":"launch.sh"},
+        {"name":"Rice","launch":"launch_rice.sh"}
+    ]
+}
