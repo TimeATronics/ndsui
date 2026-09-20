@@ -87,7 +87,6 @@ src/ui       Canvas (software surface + one streaming texture), Theme, Shell,
 device/      config.json, launch.sh, icon, boot/ndsui_boot.sh
 assets/      NDS12 + Fredoka fonts, 3D cartridge models (.obj), stock skin
 tools/       helpers used to convert/preview the 3D models and box art
-glb_models/  source models the cartridges were derived from
 media/       screenshots + showcase video
 ```
 

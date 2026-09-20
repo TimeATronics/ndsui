@@ -7,7 +7,7 @@ Matching: libretro uses No-Intro naming ("Game (USA)") while ROMs here often
 use "(U)": we try a list of name variants and prefix-match the repo listing.
 
 Usage:
-  python3 tools/fetch_boxart.py --ssh root@192.168.137.24 [--limit N]
+  python3 tools/fetch_boxart.py --ssh root@<brick-ip> [--limit N]
                                 [--only SYS] [--dry]
 """
 import argparse
@@ -138,7 +138,7 @@ def best_match(listing, base):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ssh", default="root@192.168.137.24")
+    ap.add_argument("--ssh", required=True, help="root@<brick ip>")
     ap.add_argument("--sdcard", default="/mnt/SDCARD")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only", default="")
