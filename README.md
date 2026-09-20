@@ -6,17 +6,10 @@ console as a 3D cartridge carousel and launches games through the same stock
 launch scripts MainUI uses - while staying completely out of the way of the
 system: brightness, volume, LEDs and radios stay owned by the stock OSD.
 
-![NDSUI home screen](media/home.png)
-
-## Screens
-
-| Apps | Settings |
+|  |  |
 | --- | --- |
-| ![Apps grid](media/apps.png) | ![Settings](media/settings.png) |
-
-<p align="center">
-  <img src="media/models.gif" alt="3D cartridge carousel">
-</p>
+| ![NDSUI home screen](media/home.png) | ![Apps grid](media/apps.png) |
+| ![Settings](media/settings.png) | ![3D cartridge carousel](media/models.gif) |
 
 ## Features
 
