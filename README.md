@@ -98,10 +98,7 @@ media/       screenshots + showcase video
 
 ## Credits
 
-- NDS12 font by Caveras / FontStruct (CC BY-NC-SA) - `assets/NDS12-license.txt`
 - Fredoka (SIL OFL) - `assets/Fredoka-OFL.txt`
-- Cartridge models derived from public GLB/STL models, converted with the
-  scripts in `tools/`
 
 NDSUI is not affiliated with Nintendo. Game art is loaded from your own SD
 card and is not part of this repository.
