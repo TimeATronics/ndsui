@@ -1,4 +1,15 @@
-# NDSUI
+<h1 align="center">NDSUI</h1>
+
+<p align="center">
+  <img src="device/ic-ndsui.png" alt="NDSUI" width="128">
+</p>
+
+<p align="center">
+  <a href="https://github.com/TimeATronics/ndsui/commits/main"><img src="https://img.shields.io/github/last-commit/TimeATronics/ndsui" alt="Last commit"></a>
+  <a href="https://github.com/TimeATronics/ndsui/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TimeATronics/ndsui" alt="License"></a>
+  <a href="https://github.com/TimeATronics/ndsui/stargazers"><img src="https://img.shields.io/github/stars/TimeATronics/ndsui" alt="Stars"></a>
+  <a href="https://github.com/TimeATronics/ndsui/issues"><img src="https://img.shields.io/github/issues/TimeATronics/ndsui" alt="Issues"></a>
+</p>
 
 A Nintendo DS styled launcher for the **TrimUI Brick** running the stock OS.
 It browses your existing `Roms/`, `Emus/` and `Apps/` layout, shows every
