@@ -14,7 +14,7 @@ system: brightness, volume, LEDs and radios stay owned by the stock OSD.
 | --- | --- |
 | ![Apps grid](media/apps.png) | ![Settings](media/settings.png) |
 
-<video src="media/models.mp4" controls width="720"></video>
+![3D cartridge carousel](media/models.gif)
 
 ## Features
 
