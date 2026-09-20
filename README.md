@@ -3,7 +3,7 @@
 A Nintendo DS styled launcher for the **TrimUI Brick** running the stock OS.
 It browses your existing `Roms/`, `Emus/` and `Apps/` layout, shows every
 console as a 3D cartridge carousel and launches games through the same stock
-launch scripts MainUI uses — while staying completely out of the way of the
+launch scripts MainUI uses - while staying completely out of the way of the
 system: brightness, volume, LEDs and radios stay owned by the stock OSD.
 
 ![NDSUI home screen](media/home.png)
@@ -14,22 +14,22 @@ system: brightness, volume, LEDs and radios stay owned by the stock OSD.
 | --- | --- |
 | ![Apps grid](media/apps.png) | ![Settings](media/settings.png) |
 
-🎬 [**Watch the 3D cartridge carousel** (models.mp4)](media/models.mp4)
+<video src="media/models.mp4" controls width="720"></video>
 
 ## Features
 
 - DS-styled UI: notebook-paper background, pixel font, cards, pills and
   button-glyph hints; light + dark theme
-- **Games** – every `Emus/*/config.json` with games becomes a console in the
+- **Games** - every `Emus/*/config.json` with games becomes a console in the
   3D carousel (era-correct cartridges, discs for CD systems), with box art,
   Recently Played, Favorites, search keyboard and a launch-core picker
-- **Apps** – tile grid of everything in `Apps/` and `/usr/trimui/apps`
-- **Settings** – minimal on purpose: Theme (dark mode, clock format),
+- **Apps** - tile grid of everything in `Apps/` and `/usr/trimui/apps`
+- **Settings** - minimal on purpose: Theme (dark mode, clock format),
   Homepage toggles, System (default launcher, quit, power off)
 - Stock friendly: MENU+SELECT OSD hotkey, power-button handling and the
   stock OSD keep working; NDSUI never writes display/LED/sound/WiFi/BT state
 - **Boot straight into NDSUI** (optional): a script in `System/starts/` hands
-  over from MainUI, so NDSUI runs as a normal app session — quitting or
+  over from MainUI, so NDSUI runs as a normal app session - quitting or
   crashing always falls back to MainUI
 - Light on resources: ~10% of one core and ~45 MB RAM at rest
 
@@ -39,7 +39,7 @@ system: brightness, volume, LEDs and radios stay owned by the stock OSD.
    so you get `/mnt/SDCARD/Apps/NDSUI/...`
 2. On the Brick, open **MainUI → Apps → NDSUI**. That's it.
 
-Optional – boot straight into NDSUI:
+Optional - boot straight into NDSUI:
 
 3. Copy `System/starts/ndsui_boot.sh` from the zip to
    `/mnt/SDCARD/System/starts/` (create the folder if needed)
@@ -49,7 +49,7 @@ Optional – boot straight into NDSUI:
 Going back / recovery:
 
 - In NDSUI: **Settings → System → Default Launcher → MainUI**, press
-  **Quit NDSUI** — or on a PC delete `Apps/NDSUI/use_as_launcher` from the SD
+  **Quit NDSUI** - or on a PC delete `Apps/NDSUI/use_as_launcher` from the SD
   card (or create the file `System/no_ndsui`) and boot to MainUI again.
 
 Requirements: stock Brick firmware and the usual `Roms/` + `Emus/` SD layout
@@ -93,8 +93,8 @@ media/       screenshots + showcase video
 
 ## Credits
 
-- NDS12 font by Caveras / FontStruct (CC BY-NC-SA) — `assets/NDS12-license.txt`
-- Fredoka (SIL OFL) — `assets/Fredoka-OFL.txt`
+- NDS12 font by Caveras / FontStruct (CC BY-NC-SA) - `assets/NDS12-license.txt`
+- Fredoka (SIL OFL) - `assets/Fredoka-OFL.txt`
 - Cartridge models derived from public GLB/STL models, converted with the
   scripts in `tools/`
 
